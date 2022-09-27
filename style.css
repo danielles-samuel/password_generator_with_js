@@ -82,7 +82,7 @@ button:hover{
 
 @media (min-width: 345px) {
     .wrapper{
-        padding: 20px;
+        padding: 30px;
         padding-top: 20px;
         background-color: #2E0249;
         border-radius: 5px;
@@ -95,7 +95,7 @@ button:hover{
     }
 
     input{
-        width: fit-content;
+        width: 280px;
         height: 40px;
         padding: 8px;
         text-align: center;
@@ -131,7 +131,14 @@ button{
 /* ====================FOR DESKTOP VIEW================ */
 
 @media screen and (min-width: 600px) {
- 
+
+    .wrapper{
+        padding: 30px;
+        padding-top: 20px;
+        background-color: #2E0249;
+        border-radius: 5px;
+        box-shadow: 0 0 10px;
+    }
     input{
         width: 300px;
         height: 40px;
@@ -142,8 +149,7 @@ button{
     }
     
     .btn_holder{
-        flex-wrap: wrap;
-        flex-direction:unset; 
+       display: flex; 
 
     }
   
@@ -153,7 +159,7 @@ button{
 
 }
 .btn2{
-    background-color: #570A57;
+    background-color: #26b114;
 }
 
 }

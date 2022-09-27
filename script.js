@@ -1,5 +1,5 @@
    let password=document.getElementById("password");
-  //=================FUNCTION THAT GENERATES PASSWORD========'// 
+  //=================FUNCTION THAT GENERATES PASSWORD========// 
  function genPassword() {
     let chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let passwordLength = 10;
