@@ -78,9 +78,9 @@ button:hover{
 }
 
 
-@media (min-width: 375px) {
+@media (min-width: 345px) {
     .wrapper{
-        padding: 30px;
+        padding: 20px;
         padding-top: 20px;
         background-color: #2E0249;
         border-radius: 5px;
@@ -93,7 +93,7 @@ button:hover{
     }
 
     input{
-        width: 290px;
+        width: 200px;
         height: 40px;
         padding: 10px;
         text-align: center;
@@ -111,8 +111,8 @@ button:hover{
     }
   
 button{
-    width: 200px;
-    height: 35px;
+    width: 133px;
+    height: 30px;
     border-radius: 7px;
     color: white;
     padding: 0px 0px;
