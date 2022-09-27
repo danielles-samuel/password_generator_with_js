@@ -29,11 +29,10 @@ h1{
     margin-bottom: 40px;
     font-size: 24px;
     font-family: sans-serif;
-    color: #015a96;
 }
 
  input{
-    width: 400px;
+    width: 420px;
     height: 50px;
     border: 0;
     outline: 0;
@@ -42,6 +41,7 @@ h1{
     user-select: none;
     font-size: 22px;
     border-radius: 6px;
+    letter-spacing: 1px;
 }
 
 input::placeholder{
@@ -55,7 +55,7 @@ input::placeholder{
     justify-content: space-around;
 }
 
-#button{
+button{
     outline: none;
     border: none;
     cursor: pointer;
@@ -67,7 +67,87 @@ input::placeholder{
     padding: 14px 20px;
 }
 
-#button:hover{
+button:hover{
     background-color: rgb(83, 37, 76);
     color: white;
+}
+
+.btn3{
+    background-color: #790252;
+    width: 180px;
+}
+
+
+@media (min-width: 375px) {
+    .wrapper{
+        padding: 30px;
+        padding-top: 20px;
+        background-color: #2E0249;
+        border-radius: 5px;
+        box-shadow: 0 0 10px;
+    }
+
+    h1{
+        font-size: 1.3rem;
+        color: #660080;
+    }
+
+    input{
+        width: 290px;
+        height: 40px;
+        padding: 10px;
+        text-align: center;
+        font-size: 20px;
+        display: block;
+    }
+    
+    .btn_holder{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 40px;
+
+    }
+  
+button{
+    width: 200px;
+    height: 35px;
+    border-radius: 7px;
+    color: white;
+    padding: 0px 0px;
+    display: block;
+
+}
+.btn2{
+    background-color: #570A57;
+}
+
+}
+@media screen and (min-width: 600px) {
+ 
+    input{
+        width: 300px;
+        height: 40px;
+        padding: 10px;
+        text-align: center;
+        font-size: 20px;
+        display: block;
+    }
+    
+    .btn_holder{
+        flex-wrap: wrap;
+        flex-direction:unset; 
+
+    }
+  
+button{
+    width: 240px;
+    height: 50px;
+
+}
+.btn2{
+    background-color: #570A57;
+}
+
 }
