@@ -93,7 +93,7 @@ button:hover{
     }
 
     input{
-        width: 200px;
+        width: fit-content;
         height: 40px;
         padding: 10px;
         text-align: center;
@@ -111,12 +111,13 @@ button:hover{
     }
   
 button{
-    width: 133px;
+    width: fit-content;
     height: 30px;
     border-radius: 7px;
     color: white;
-    padding: 0px 0px;
+    padding: 0px 10px;
     display: block;
+    font-size: 16px;
 
 }
 .btn2{
